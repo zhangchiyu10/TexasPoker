@@ -1,0 +1,41 @@
+$def with ()
+<html>
+<head>
+	<title>Texas Poker</title>
+</head>
+<script type="text/javascript" src="./static/jquery.min.js"></script>
+<script type="text/javascript" src="./static/banker.js"></script>
+
+<style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #05a905;
+      }
+
+      #pokerArea{
+      	padding: 20px; 
+      }
+      #shuffle,#round{
+      	height: 50px;
+      	width: 60px;
+      }
+      #main{
+      	text-align: center;
+      }
+</style>
+<body>
+<div id="main">
+<input id="shuffle" type="button" value ="Shuffle" onClick="shuffle()"/>
+
+<input id ="round" type="button" value ="Flop" onClick="getCard()"/>
+<div id="pokerArea">
+<img id ="0" ></img>
+<img id ="1" ></img>
+<img id ="2" ></img>
+<img id ="3" ></img>
+<img id ="4" ></img>
+</div>
+</div>
+</body>
+</html>

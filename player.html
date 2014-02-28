@@ -1,0 +1,36 @@
+$def with (c1,c2,id)
+<html>
+
+<head>
+	<title>Texas Poker</title>
+
+
+<style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #05a905;
+      }
+
+      #pokerArea{
+      	padding: 20px; 
+      }
+       #player{
+        height: 30px;
+        width: 80px;
+      }
+      #main{
+      	text-align: center;
+      }
+</style>
+</head>
+<body>
+<div id="main">
+<input id="player"  type="button" value="Player $:id" onClick="location.reload()">
+<div id="pokerArea">
+<img src="/static/pokerCard/$:c1"></img>
+<img src="/static/pokerCard/$:c2"></img>
+</div>
+</div>
+</body>
+</html>
