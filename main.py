@@ -1,7 +1,7 @@
 import web,random
 urls = (
     '/player/(.*)', 'GetCard',
-    '/banker','Banker',
+    '/table','Table',
     '/shuffle','Shuffle'
 )
 app = web.application(urls, globals())
@@ -23,9 +23,9 @@ class GetCard:
     		else:
     			return render.player(pickCard(2*id-1+4),pickCard(2*id+4),id)
 
-class Banker:        
+class Table:        
     def GET(self):
-        return render.banker() 
+        return render.table() 
 
 class Shuffle:
 	def GET(self):
