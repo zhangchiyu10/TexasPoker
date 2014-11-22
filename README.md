@@ -10,6 +10,6 @@ Your pc runs as the game server now. Here 80 is the port you set for your server
 
 If you are using Win8, simply double click the .bat file and it will establish a local wlan network for you as well as run the web app. The Wi-fi name is "TexasHold'em" and the password is 1234567890.
 
-Then open your favourite web browser (Google Chrome recommanded). Type "localhost/banker" to see the community cards and your screen is the gaming table now. Use your cell phone and type "serverIp/player/1" to get your pocket cards. Other players can get theirs by different number specified at the url path. Refresh the page by the "player x"  button to get new pocket cards when you start a new round.
+Then open your favourite web browser (Google Chrome recommanded). Open "localhost/banker" to see the community cards and your screen is the gaming table now. Use your cell phone web browser and open "[serverIp]/player/1" to get your pocket cards. Other players can get theirs by different number specified at the url path. Refresh the page by the "player x"  button to get new pocket cards when you start a new round.
 
 Have fun with your friends!
