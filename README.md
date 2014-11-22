@@ -4,10 +4,10 @@ Texas Hold'em is one of the world's most popular poker games. The game requires 
 
 It is very easy to use. Just download the folder and run main.py. You need python environment of course.
 
-python main.py 8080
+python main.py 80
 
-Here 8080 is the port you set for your website, you can change whichever you like as long as it is available.
-If your os is win8, simply double click the .bat file and it will establish a local wlan network for you as well as run the web app.
-Then open your favourite web browser (Chrome recommanded). Type "localhost/banker" to see the community cards. Use your cell phone and type "yourcompurterip/player/1" to get your pocket cards. Other player can get theirs by different number specified at the url path.
+Your pc runs as the game server now. Here 80 is the port you set for your server, you can change whichever you like as long as it is available, but remember to add to your url later if it is not 80.
+If you are using Win8, simply double click the .bat file and it will establish a local wlan network for you as well as run the web app. The Wi-fi name is "TexasHold'em" and the password is 1234567890.
+Then open your favourite web browser (Google Chrome recommanded). Type "localhost/banker" to see the community cards and your screen is the gaming table now. Use your cell phone and type "serverIp/player/1" to get your pocket cards. Other players can get theirs by different number specified at the url path. Refresh the page by the "player x"  button to get new pocket cards when you start a new round.
 
-Have Fun with your friends!
+Have fun with your friends!
